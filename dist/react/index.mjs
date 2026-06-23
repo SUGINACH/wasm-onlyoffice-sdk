@@ -7,7 +7,7 @@ function _({
   file: h,
   fileUrl: m,
   newDocument: w,
-  language: R = "en",
+  language: R = "he",
   theme: q = "theme-light",
   user: y = { id: "uid", name: "User" },
   onReady: l,

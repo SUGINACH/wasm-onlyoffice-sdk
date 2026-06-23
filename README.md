@@ -90,7 +90,7 @@ export default function App() {
       assetsPath="/v9.3.0.24-1"
       x2tPath="/x2t-1"
       newDocument="docx"
-      language="en"
+      language="he"
       theme="theme-light"
       user={{ id: 'user1', name: 'Alice' }}
       onReady={() => console.log('Editor ready')}
@@ -139,7 +139,7 @@ const onSave = (blob, filename) => {
     assets-path="/v9.3.0.24-1"
     x2t-path="/x2t-1"
     new-document="docx"
-    language="en"
+    language="he"
     theme="theme-dark"
     :user="{ id: 'user1', name: 'Alice' }"
     @ready="onReady"
@@ -158,7 +158,7 @@ const onSave = (blob, filename) => {
 | `file` | `File` | — | Open an existing File object |
 | `fileUrl` | `string` | — | Open a document from a remote URL |
 | `newDocument` | `"docx" \| "xlsx" \| "pptx" \| "pdf"` | — | Create a new blank document |
-| `language` | `string` | `"en"` | Editor UI language |
+| `language` | `string` | `"he"` | Editor UI language |
 | `theme` | `OfficeTheme` | `"theme-light"` | Editor color theme |
 | `user` | `{ id: string; name: string }` | `{ id: "uid", name: "User" }` | Current user identity |
 | `onReady` / `@ready` | `() => void` | — | Fired when the editor is fully loaded |

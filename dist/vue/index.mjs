@@ -878,7 +878,7 @@ const MA = {
     file: {},
     fileUrl: {},
     newDocument: {},
-    language: { default: "en" },
+    language: { default: "he" },
     theme: { default: "theme-light" },
     user: { default: () => ({ id: "uid", name: "User" }) }
   },

@@ -38,7 +38,7 @@ export function OnlyOfficeEditor({
   file,
   fileUrl,
   newDocument,
-  language = 'en',
+  language = 'he',
   theme = 'theme-light',
   user = { id: 'uid', name: 'User' },
   onReady,

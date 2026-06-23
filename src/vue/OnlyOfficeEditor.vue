@@ -21,7 +21,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   x2tPath: '/x2t-1',
-  language: 'en',
+  language: 'he',
   theme: 'theme-light',
   user: () => ({ id: 'uid', name: 'User' }),
 })
